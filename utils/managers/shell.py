@@ -1,4 +1,4 @@
-class ShellManager(Manager): #Manage scripts and system dependencies
+class ShellManager(Manager): #Manage scripts and commands
 	"""docstring for ShellManager"""
 	def __init__(self, arg):
 		super(ShellManager, self).__init__()

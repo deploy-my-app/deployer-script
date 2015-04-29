@@ -1,7 +1,4 @@
-"""
-This script will contain all managers for the services, such as the rebooting, changing nginx/apache configuration, deploy
-"""
-class Manager(object):
+class Manager(object): #main manager
 	"""docstring for Manager"""
 	def __init__(self, arg):
 		super(Manager, self).__init__()
