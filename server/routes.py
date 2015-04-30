@@ -5,6 +5,8 @@ __date__ = "$29 avr. 2015 15:51:57$"
 
 @app.route("/deploy",methods=["POST"])
 def deploy():
+  #request.json["deployement"]
+  #The deploy conaints some thing like a deployement in the database exept it doesnt have the statuses
   pass
 
 
