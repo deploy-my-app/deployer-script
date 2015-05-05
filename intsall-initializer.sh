@@ -17,9 +17,9 @@ BASE_PATH="/usr/share/$NAME/"
 LOCAL_BIN="/usr/local/bin/"
 DEAMON_SCRIPT="deamonize.sh"
 INSTALLER_SCRIPT="deployer-install"
-sudo pip install cherrypy
+
 sudo pip install flask
-sudo pip install flask-restful
+
 sudo pip install pyinstaller
 sudo pip install requests
 
