@@ -23,7 +23,13 @@ def deploy():
 		pass
 	else:
 		abort(501)
-
+def unanimous(seq):
+	try:
+		it = iter(seq)
+		first = it.next()
+		return all(i == first for i in it)
+	except StopIteration:
+		return True
 
 if __name__ == "__main__":
 	app.run(debug=True,port=5000,host="0.0.0.0")
